@@ -9,7 +9,7 @@
       header {
         text-align: center;
         background-color: bisque;
-        z-index: -1;
+        margin: -21px;
       }
 
       section {
@@ -24,99 +24,115 @@
       .bgb {
         background-color: rgb(90, 43, 43);
       }
-      ul{
+      ul {
         list-style: square;
       }
-      ol{
+      ol {
         list-style-type: lower-roman;
       }
       .card {
-       width: 40%;
-       display: inline-flex;
-       
-}
-a{
-  color:black
-}
-nav{
-  display: block;
-  background-color: beige;
-}
-
-      
+        width: 40%;
+        display: inline-flex;
+      }
+      a {
+        color: black;
+      }
+      nav {
+        display: block;
+      }
+      body {
+        background-color: rgb(97, 30, 30);
+      }
     </style>
   </head>
 
   <body>
-    <nav>
-      <a href="image1.jpg">Camera</a> 
-      <a href="image2.jpg">Flowers</a>
-      <a href="image3.jpg">Abstract</a> 
-      <a href="image 4.jpg">Windows</a>
-    </nav>
-    <div class="bgb">
-      <header>
-        <h1>Welcome to Media House...!!</h1>
-        <p>Made by Ujjawal Srivastava</p>
-        <img
-          src="headerimage.jpg"
-          alt="headerimage"
-          style="width: 100%; height: 500px"
-        />
-      </header>
-      <section>
-        <h2>Given are the links for images and entertainment!!</h2>
-        <p>Some Images are listed below</p>
-      </section>
-      <div class="card">
-        <img src="image1.jpg" alt="img1" style="width:100%">
-        <img src="image2.jpg" alt="img1" style="width:100%">
-          
-        </div>
-    
-      
-      <div>
-        <p>You can checkout the images by getting on the link.</p>
-        <p>|Below links are given.</p>
-        <ul>
-          <li><a href="image1.jpg" target="_blank">Image 1</a></li>
-          <li><a href="image2.jpg" target="_blank">Image 2</a></li>
-          <li><a href="image3.jpg" target="_blank">Image 3</a></li>
-          <li><a href="image 4.jpg"target="_blank">Image 4</a></li>
-        </ul>
-        <p>Video Links:</p>
-        <ol>
-          <li><a href="page2.html">Click here</a></li>
-          <li><a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">Click here</a></li>
-          <li><a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"> Click Here</a></li>
-          <li><a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4">Click here</a></li>
-        </ol>
-        <p>Listen audios.</p>
-        
-          <audio controls>
-            <source src="audio1.mp3" type="audio/ogg" />
-           
-          </audio>
-          <audio controls>
-            <source src="audio.mp3" type="audio/ogg"/>
-          </audio>
-        
-
-        <p>
-          You will get all set of elements related to image,video and audio. <span class="span"
-            >Below are some examples.</span
-          >
-        </p>
-        <p>Video preview.</p>
-        <iframe src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" title="video"> </iframe>
-        
-      </div>
-
-      <aside>
-        <h2>Contact Information</h2>
-        <br />
-        <p>Ujjawal Srivastava</p>
-      </aside>
+    <div>
+      <nav>
+        <a href="image1.jpg">Camera</a>
+        <a href="image2.jpg">Flowers</a>
+        <a href="image3.jpg">Abstract</a>
+        <a href="image4.jpg">Windows</a>
+      </nav>
     </div>
+
+    <header>
+      <h1>Welcome to Media House...!!</h1>
+      <p>Made by Ujjawal Srivastava</p>
+      <img
+        src="headerimage.jpg"
+        alt="headerimage"
+        style="width: 100%; height: 500px"
+      />
+    </header>
+    <section>
+      <h2>Given are the links for images and entertainment!!</h2>
+      <p>Some Images are listed below</p>
+    </section>
+    <div class="card">
+      <img src="image1.jpg" alt="img1" style="width: 200px; height: 200px" />
+      <img src="image2.jpg" alt="img1" style="width: 200px; height: 200px" />
+    </div>
+
+    <div>
+      <p>You can checkout the images by getting on the link.</p>
+      <p>|Below links are given.</p>
+      <ul>
+        <li><a href="image1.jpg" target="_blank" download="">Image 1</a></li>
+        <li><a href="image2.jpg" target="_blank">Image 2</a></li>
+        <li><a href="image3.jpg" target="_blank">Image 3</a></li>
+        <li><a href="image4.jpg" target="_blank">Image 4</a></li>
+      </ul>
+      <p>Video Links:</p>
+      <ol>
+        <li><a href="page2.html">Click here</a></li>
+        <li>
+          <a
+            href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            >Click here</a
+          >
+        </li>
+        <li>
+          <a
+            href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+          >
+            Click Here</a
+          >
+        </li>
+        <li>
+          <a
+            href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            >Click here</a
+          >
+        </li>
+      </ol>
+      <p>Listen audios.</p>
+
+      <audio controls autoplay>
+        <source src="audio1.mp3" type="audio/ogg" />
+      </audio>
+      <audio controls autoplay>
+        <source src="audio.mp3" type="audio/ogg" />
+      </audio>
+
+      <p>
+        You will get all set of elements related to image,video and audio.
+        <span class="span">Below are some examples.</span>
+      </p>
+      <p>Video preview.</p>
+      <iframe src="page4.html" title="video"> </iframe>
+      <video controls width="320" height="240" muted autoplay>
+        <source
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+
+    <aside>
+      <h2>Contact Information</h2>
+      <br />
+      <p>Ujjawal Srivastava</p>
+    </aside>
   </body>
 </html>
