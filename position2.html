@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+      .p_relative {
+        position: relative;
+        border: 3px solid black;
+        background-color: bisque;
+        height: 140px;
+        width: 40%;
+      }
+      .p_absolute {
+        position: absolute;
+        left: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="p_relative">
+        <p>
+          Primarily a mobile social network, you can easily take a picture or
+          video with your smartphone, choose a filter and edit your post, and
+          then share with your followers.
+        </p>
+        <div class="p_absolute">
+          <img src="insta.png.png" alt="" width="60px" />
+        </div>
+      </div>
+      <div class="p_relative">
+        <p>
+          LinkedIn is a popular social network with a specific purpose. While
+          other social networks like Facebook and Twitter focus more on your
+          personal life, LinkedIn is all about professional networking—that is,
+          building a group of contacts to help advance your career.
+        </p>
+        <div class="p_absolute">
+          <img src="lkd.png.png" alt="" width="30px" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

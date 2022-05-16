@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Figma</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div><img src="logo.png" alt=""></div>
+            <div>
+                <ul class="ul1">
+                    <li class="li1">Home</li>
+                    <li class="li1">Landings</li>
+                    <li class="li1">Pages</li>
+                    <li class="li1">Docs</li>
+                    <li class="li1">Help</li>
+                    <li>
+                        <button class="li_btn">Get it now</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</header>
+
+
+<section>
+    <div class="Banner">
+        <div class="aside">
+            <h5>INTRODUCTION</h5>
+            <h4> Welcome Docs 2.0</h4>
+            <h6>CHOOSE VERSION</h6>
+            Unstable Version <img class="img_icon" src="icon.svg" alt="">
+            <ul class="ul2">
+                 
+               
+                <li>v 1.0  <img class="img_icon" src="icon.svg" alt=""> </li>
+                <li>v 2.0  <img class="img_icon" src="icon.svg" alt="" ></li>
+                <li>v 2.1 beta  <img class="img_icon" src="icon.svg" alt=""> </li>
+                <li>v 1.5 stable ver.  <img class="img_icon" src="icon.svg" alt=""> </li>
+            </ul>
+            <h6>COMMAN STRUCTURE</h6>
+            <ul class="ul2">
+                <li>Before you begin</li>
+                <li> Set up development</li>
+                <li>Build the basic</li>
+                <li>Install your app</li>
+            </ul>
+            <h6>DATA ATTRIBUTES</h6>
+            <ul class="ul2">
+                <li>Data Attibutes Model</li>
+                <li>Create data attributes</li>
+                <li>Update data attributes</li>
+                <li>List All Data Attributes</li>
+            </ul>
+            <button class="nxt_btn">Next &#x2192;</button>
+        </div>
+        <div class="c_main">
+            <h2>Welcome to docs 2.0
+                <span class="g_feed">Give Feedback</span> 
+             </h2>
+             
+             <p> <img src="face.png" alt=""> by <strong>Marissa Lynch</strong> <span class="date_style"> &#8226; Latest Updated: Mar 10, 2020</span></p>
+             <p  class="intro_para">
+                 Welcome to Ehya Cloud development! This tutorial will help you learn the basics of using Atlassian Connect to develop apps for Ehya Cloud, including Jira Software, Ehya Service Desk, and Ehya Core. Designspace Connect is our recommended framework for extending Ehya Cloud as it handles discovery, installation, authentication, and seamless integration into the Ehya user interface.
+                 
+             </p>
+             <p class="intro_para">By the end of this tutorial you'll have everything you need to start developing for Cloud. This includes setting up your local development environment for Designspace Connect, getting a Cloud development instance, and validating your setup by building and deploying a basic Hello World app.
+ 
+                 </p>
+             <p  class="intro_para">Note, this tutorial is for developing on Ehya Cloud. If you want to develop for Server then checkout the Getting started guide for server app development.</p>
+             
+             <h2>Before you begin</h2>
+             <p>You'll need the following things to develop for Ehya Cloud:
+ 
+             </p>
+             <p class="intro_para"> A developer instance of Atlassian Cloud for testing and validating apps.</p>
+             <p class="intro_para">A local development environment for creating apps.</p>
+ 
+             <h2>Step 2. Enable development mode</h2>
+             <p class="intro_para">Now we'll enable development mode for your Designspace Cloud instance. Development mode gives you the ability to install apps that are not from the Atlassian Marketplace.</p>
+ 
+             <p class="intro_para">1. Navigate to Ehya settings (cog icon) > Apps > Manage apps.</p>
+             <p class="intro_para">2. Scroll to the bottom of the Manage apps page, and click Settings.(1)</p>
+             <p class="intro_para">3. Select Enable development mode (2), and click Apply.</p>
+
+
+            <div class="d_box">
+                <div class="design_box">
+                    <h3>Design Space</h3>
+                    <h4><img src="shape.png" alt="">Add ons</h4>
+                    <p>Find more Add ons</p>
+                    <p>Manage Add ons</p>
+                    <hr>
+                    <p>Apps Management</p>
+                    <p>Accounts</p>
+                </div>
+
+                <div class="setting">
+                    <h3>Settings</h3>
+                    <p style="font-size: 14px; font-weight: bold;">Enable Development Mode</p>
+                    <p class="s_para">Many reasons why customer choose us than other ecommerce. We have some plus point that maybe other can’t have.</p>
+                    <p style="font-size: 14px; font-weight: bold;">Enable Private Listings</p>
+                    <p class="s_para">Many reasons why customer choose us than other ecommerce. We have some plus point that maybe other can’t have.</p>
+                   
+                    <p> <button class="btn_2">Apply Changes</button><span class="cancel"> Cancel</span></p>
+              </div>
+            </div>
+
+            <h2>Step 3. Set up your local development environment</h2>
+              <p class="intro_para">If you install an Atlassian Connect app in an Atlassian Cloud instance, the app is usually hosted elsewhere (for example, a cloud platform service like Heroku). However, when you are building an app it's easiest to develop it on your local machine and make it available over the internet using tunneling (via HTTPS). This allows you to work locally, but test against your Atlassian Cloud instance. 
+                </p>
+                <p>1. On your command line, run the following:</p>
+
+            <div>
+                <div class="cmd_line">
+                <p>1 npm install -g ngrok</p>
+                </div>
+                <p>2. Verify that ngrok is installed correctly by running the following command:</p>
+                <div class="cmd_line">
+                <p>2 ehya-settings help</p>
+                </div>
+            </div>
+
+            <p>We'll show you how to use ngrok to make your app available to the internet later in this tutorial.</p>
+
+            <div>
+                <h2>Build a Basic App</h2>
+                <p class="intro_para">Now let's build a simple Designspace Connect app. This part of the tutorial gives you a hands-on introduction to Designspace Connect and validates that your development environment is set up correctly.</p>
+                <p class="intro_para">Let's create a project directory and define your app descriptor. The app defined in the sample code below uses a generalPages module, and add a link titled Greeting to the Ehya sidebar</p>
+                <p class="intro_para"> 1. Create a project directory for your app's source files.	2. In the project directory, create a new file named atlassian-connect.json with the following contents:</p>
+
+                <div class="m_border">
+                    <div class ="num">
+                        <ol>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                              <li></li>
+                        </ol>
+                    </div>
+                    <div class="code">
+                      <ul class="ul2">
+                          <li>{</li>
+                          <li>"name":"Hello World,"</li>
+                          <li>"description":"Atlassian Connect app,"</li>
+                          <li>"key": "com.example.myapp", </li>
+                          <li>"baseUrl": "https://"placeholder-url",</li>
+                          <li>"vendor": {  </li>
+                          <li>"name": "Example, Inc.",</li>
+                          <li>"url":"http://example.com"</li>
+                          <li>},</li>
+                          <li>"authentication":{</li>
+                          <li>"type":"none"</li>
+                          <li>},</li>
+                          <li>"apiversion":1,</li>
+                          <li>"modules":{</li>
+                          <li>"generalPages":[</li>
+                          <li>{</li>
+                      </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- Using Table  -->
+
+                <div class="table_list">
+                    <table class="code">
+                        <tr>
+                            <th>1</th>
+                            <td>{</td>
+                        </tr>
+                        <tr>
+                            <th>2</th>
+                            <td>"name":"Hello World,"</td>
+                        </tr>
+                        <tr>
+                            <th>3</th>
+                            <td>"description":"Atlassian Connect app,"</td>
+                        </tr>
+                        <tr>
+                            <th>4</th>
+                            <td>"key": "com.example.myapp",</td>
+                        </tr>
+                        <tr>
+                            <th>5</th>
+                            <td>"baseUrl": "https://<placeholder-url></placeholder-url>",</td>
+                        </tr>
+                        <tr><th>6</th>
+                            <td>"vendor": {  </td>
+                        
+                    </tr>
+                        <tr>
+                            <th>7 </th>
+                                <td>"name": "Example, Inc.",</td>
+                           
+                        </tr>
+                        <tr>
+                            <th>8 </th>
+                                <td>"url":"http://example.com"</td>
+                           
+                        </tr>
+                        <tr>
+                            <th>9</th>
+                                <td>},</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>10</th>
+                                <td>"authentication":</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>11</th>
+                                <td>"type":"none"</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>12</th>
+                                <td>},</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>13</th>
+                                <td>"apiversion":1,</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>14</th>
+                                <td>"modules":{</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>15</th>
+                                <td>"generalPages":</td>
+                            
+                        </tr>
+                        <tr>
+                            <th>16</th>
+                                <td>{</td>
+                            
+                        </tr>
+                        
+                    </table>
+                </div>
+                 
+                <p class="intro_para">3. Save the descriptor file</p>
+                <p class="intro_para">4. (optional) Validate your descriptor using the Designspace Connect validator. This handy tool shows you any errors in your app descriptor, such as missing properties or syntax errors.</p>
+            </div>
+    
+            
+            <div>
+                <h2>Make the app files available to the internet</h2>
+                <p class="intro_para">Now that your app is hosted on a local web server, let's use ngrok to make it available over the internet.</p>
+                <p class="intro_para">You'll see a status page on your command line that shows the public URL of your tunnel and other information about connections made over your tunnel. If your app is not running when you try to start ngrok, you'll see a "Failed to complete tunnel connection" message.</p>
+
+                <div class="design2_box">
+                    <p>Ehya by Designspace</p>
+                    <p>Session Status <span >Online</span></p>
+                    <p>Session Expires <span >7 hours , 72 minutes</span></p>
+                    <p>Version <span >3.1.8</span></p>
+                    <p>Region <span >United Status (us)</span></p>
+                    <p>Web Interface <span >http://120.0.0.1.8712</span></p>
+                    <p style="margin-bottom:50px"> Forwarding <span >http://4151yua.ehya.io —> localhost : 6000</span></p>
+                    <p>Connections <span >ttl opn rt1 rt5 p50 p90 0 0 0.00</span></p>
+                    <p>     <span>0.00 0.00 0.00</span></p>
+                </div>
+            </div>
+
+
+            <div>
+                <h2>Install and test your app</h2>       
+                <p class="intro_para">We're nearly there! The final step in deploying your app is to install it in your Atlassian Cloud instance. You'll do this by adding a link to your app's descriptor file from your Atlassian Cloud instance. This allows Jira to install your app.</p>
+                <p> 1. Navigate to Ehya in your Atlassian Cloud instance, then choose Ehya settings (cog icon) > Apps</p> 
+                <p>2. Click Upload app</p>
+                <p>3. Click Greeting. The Hello World message displays.</p>
+
+                <div class="design_nav">
+                    <div>
+                        <h3>Designspace</h3>
+                    </div>
+                    <div>
+                        <ul class="ul1">
+                            <li class="li3">Dashboard</li>
+                            <li class="li3">Projects</li>
+                            <li class="li3">Issues</li>
+                            <li class="li3">Settings</li>
+                            <li class="li3">Install</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="intro_para">Congratulations! You've set up a development environment and built your first app.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- footer  -->
+
+<footer>
+    <div class="main_footer">
+        <div class="image">
+            <img src="logo.png" alt="">
+            <p style="color: grey; line-height: 54px;">Build a modern and creative website with crealand</p>
+            <img class="s_media" src="google.png.png" alt="">
+            <img class="s_media" src="twitter.png.png" alt="">
+            <img class="s_media" src="insta.png.png" alt="">
+            <img class="s_media" src="lkd.png.png" alt="">
+        </div>
+        <div class="c_footer">
+            <h3>Products</h3>
+            <p>Landing Page</p>
+            <p>Features</p>
+            <p>Documentation</p>
+            <p>Referral Prgram </p>
+            <p>Pricing</p>
+            <span></span>
+        </div>
+        <div class="c_footer">
+            <h3>Services</h3>
+            <p>Documentation</p>
+            <p>Design</p>
+            <p>Themes</p>
+            <p>Illustration</p>
+            <p>UI KIT</p>
+        </div>
+        <div class="c_footer">
+            <h3>Company</h3>
+            <p>About</p>
+            <p>Terms</p>
+            <p>Privacy Policy</p>
+            <p>Careers</p>
+        </div>
+        <div class="c_footer">
+            <h3>More</h3>
+            <p>Documentation</p>
+            <p>License</p>
+            <p>Changelog</p>
+        </div>
+
+    </div>
+    <div class="l_footer">
+        <img style="position:relative" src="Base.png" alt="">
+        <img style="position:absolute; left: 49%; top: 15px;" src="heart.png" alt="">
+        <p>Copywright &#169; 2019. Crafted with love.</p>
+    </div>
+
+</footer>
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+header {
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr ;
+  grid-template-rows: 1fr 2fr ;
+}
+.aside{
+    background-color: aqua;
+}
+.center{
+    background-color: brown;
+}
+ul{
+    list-style-type: none;
+}
+
+.main{
+    background-color: bisque;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

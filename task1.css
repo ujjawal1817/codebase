@@ -1,0 +1,74 @@
+.dropdown {
+  padding: 10px 15px; 
+  position: relative;
+  width: 112px;
+}
+button {
+  padding: 11px 22px;
+  background-color: rgb(28, 114, 85);
+  color: wheat;
+  border-radius: 5px;
+}
+.dropdown_c {
+  display: none;
+  position: absolute;
+  background-color: rgb(232, 235, 235);
+  border: 2px solid;
+  width: 160px;
+  /* padding: 12px 16px; */
+  margin-top: 9px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+ 
+}
+.list{
+  overflow-y: scroll ;
+  height: 200px;
+}
+.dropdown_c::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  left: 4px;
+  transform: rotate(45deg);
+  top: -9px;
+  background: inherit;
+   /* background-color: rgb(232, 235, 235);   */
+}
+.class1:hover{
+  /* background-color: rgb(53, 134, 84); */
+  
+}
+
+.cl2{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.cl2:hover{
+  background-color: rgb(80, 39, 177);
+}
+.cl3:hover{
+  background-color: rgb(53, 134, 84);
+}
+p{
+  margin: 0px;
+  padding: 10px 10px;
+}
+
+.dropdown:hover .dropdown_c {
+  display: block;
+}
+/* p:first-child{
+  background-color: blueviolet;
+} */
+/* p[class$="ass1"] {
+  background-color: rgb(53, 134, 84);
+}
+input:focus {
+  background-color: rgb(134, 238, 203);
+} */
+
+

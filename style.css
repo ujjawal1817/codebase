@@ -1,0 +1,191 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.ul1{
+  display: flex;
+  list-style: none;
+  
+}
+
+.li1 {
+ 
+  padding: 10px 15px;
+  color: rgb(68, 65, 65);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.ul2{
+    
+    list-style: none;
+}
+
+.li_btn{
+ 
+  border: 2px solid rgb(69, 69, 231);
+  padding: 9px 11px;
+  background-color: transparent;
+  border-radius: 8px;
+  color: rgb(69, 69, 231);
+  
+  
+}
+.logo {
+  margin-top: 40px;
+  margin-bottom: -24px;
+  margin-left: 30px;
+}
+ 
+.Banner{
+    display: flex;
+    margin-left: 10px;
+    color: rgb(54, 54, 185);
+}
+.aside{
+    width: 30%;
+    line-height: 34px;
+}
+.c_main{
+    width: 60%;
+    color:  #183B56;
+    
+    
+}
+.g_feed{
+    border: 2px solid rgb(34, 34, 226);
+    color: rgb(34, 34, 226);
+    float: right;
+    border-radius: 14px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.date_style{
+    color: rgb(124, 117, 117);
+}
+.intro_para{
+    color:  #183B56;
+    word-spacing: 5px;
+    line-height: 20px;
+
+}
+.d_box{
+    display: flex;
+    
+    
+}
+.design_box{
+    width: 30%;
+    border: 2px solid rgb(5, 5, 59);
+    background-color:  #183B56;
+    color:azure;
+    border-radius: 15px;
+    padding-left: 26px;
+    padding-right: 20px;
+    height: 275px;
+}
+.setting{
+  width: 70%;
+  padding: 9px 50px;
+  border: 2px ;
+}
+.s_para{
+    font-size: 12px;
+    line-height: 25px;
+}
+.btn_2{
+    background-color: #00B8D9;
+    border-radius: 20px;
+    color: azure;
+    padding: 9px 20px;
+    border-style: hidden;
+}
+.cancel{
+    padding: 0px 70px;
+    color: grey
+}
+.cmd_line{
+    background-color: #B3BAC5;
+    padding: 10px;
+    box-shadow: black;
+}
+.m_border{
+    display: flex;
+    background-color: antiquewhite;
+}
+.num{
+    line-height: 30px;
+}
+.code{
+    line-height: 30px;
+}
+.design2_box{
+background-color: #183B56;
+color: white;    
+
+}
+.design_nav{
+    display: flex;
+    background-color: #183B56;
+    color: aliceblue;
+    border: 2px solid;
+    border-radius: 24px;
+    padding: 0px 56px;
+}
+.li3{
+    padding: 10px 15px;
+  color: rgb(240, 234, 234);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  
+}
+.img_icon{
+      padding: 0px, 50px;
+}
+.image{
+    float: left;
+}
+.s_media{
+     border: 2px solid ;
+    border-radius: 70px;
+    padding: 10px;
+    border-color: white;
+    background-color:rgb(192, 182, 182)
+}
+footer{
+    margin-top: 100px;
+}
+.main_footer{
+    display: flex;
+}
+.c_footer{
+    width: 20%;
+color: #183B56;
+}
+.l_footer{
+    text-align: center;
+    color: rgba(90, 113, 132, 1);
+    position: relative;
+    
+}
+.table_list{
+    display: flex;
+    background-color: antiquewhite;
+    line-height: 30px;
+}
+.nxt_btn{
+    background-color:rgba(21, 101, 216, 1);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    width: 260px;
+    height: 48px;
+    border-style: hidden;
+    
+}

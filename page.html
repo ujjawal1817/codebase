@@ -10,6 +10,7 @@
         text-align: center;
         background-color: bisque;
         margin: -21px;
+        width: 100%;
       }
 
       section {
@@ -33,6 +34,7 @@
       .card {
         width: 40%;
         display: inline-flex;
+        justify-content: space-between;
       }
       a {
         color: black;
@@ -42,6 +44,9 @@
       }
       body {
         background-color: rgb(180, 156, 156);
+      }
+      iframe{
+        height: 168px;
       }
     </style>
   </head>
@@ -53,6 +58,7 @@
         <a href="image2.jpg">Flowers</a>
         <a href="image3.jpg">Abstract</a>
         <a href="image4.jpg">Windows</a>
+        <a href="form.html">News Letters</a>
       </nav>
     </div>
 
@@ -76,7 +82,7 @@
 
     <div>
       <p>You can checkout the images by getting on the link.</p>
-      <p>|Below links are given.</p>
+      <p>Below links are given.</p>
       <ul>
         <li><a href="image1.jpg" target="_blank" download="">Image 1</a></li>
         <li><a href="image2.jpg" target="_blank">Image 2</a></li>
@@ -120,8 +126,12 @@
         <span class="span">Below are some examples.</span>
       </p>
       <p>Video preview.</p>
-      <iframe src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" title="video"> </iframe>
-      <video controls width="320" height="240" muted autoplay>
+      <iframe
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        title="video"
+      >
+      </iframe>
+      <video controls width="320" height="171" muted autoplay>
         <source
           src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
           type="video/mp4"

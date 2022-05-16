@@ -1,0 +1,166 @@
+.square{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(173, 152, 152);
+    margin: auto;
+    position: relative;
+    text-align: center;
+    
+}
+.mini_square{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 20px;
+    position: absolute;
+    left: 0px;
+    top:150px;
+    animation-name: ani ;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite ;
+
+   
+}
+h1{
+  text-shadow: 2px 2px 5px red;
+}
+@keyframes ani{
+  0%   {background-color:rgb(36, 29, 29); left:0px; top:150px;} 
+  25%  {background-color:yellow; left:196px; top:0px;}
+   50%  {background-color:blue; left:395px; top:150px;}
+   75% {background-color:rgb(21, 85, 24); left:196px; top:395px;}
+  /*100%{background-color:green; left:0px; bottom:200px;} */
+   /* {background-color:rgb(37, 34, 34); left:0px; top:0px;} */ 
+}
+
+.circle{
+    width:330px;
+    height:330px;
+    border:1px solid rgb(161, 20, 20);
+    background-color: black;
+    position:relative;
+    top:0; bottom:0; left:0;right:0;
+    animation-name: circle;
+    margin:auto;
+    border-radius:50%; 
+  }
+  
+  .mini_circle{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position:absolute;
+    top:0; bottom:0; left:0;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 5s linear infinite;
+  }
+  
+  @keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+  }
+
+  .eight{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(216, 197, 197, 0.767);
+    margin: auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .mini_eight{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    animation-name: eig ;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite ;
+  }
+
+  @keyframes eig{
+    0%   {background-color:rgb(36, 29, 29); left:0px; top:0px;} 
+     25%  {background-color:yellow; left: 395px; top: 395px;}
+      50%  {background-color:blue; left:395px; top:0px;} 
+      75% {background-color:rgb(21, 85, 24); left:0px; top:395px;}  
+    /*100%{background-color:green; left:0px; bottom:200px;} */
+     /* {background-color:rgb(37, 34, 34); left:0px; top:0px;} */ 
+  }
+
+  .s_circle{
+    width: 500px;
+    height: 500px;
+    /* background-color: rgba(90, 150, 67, 0.767); */
+    margin: auto;
+    position: relative;
+    text-align: center;
+    animation: sq_cir 4s infinite;
+    /* border-top: 2px solid transparent; */
+
+  }
+
+  .ss_circle{
+    width:30px;
+    height:30px;
+    background: linear-gradient(to bottom right, red, yellow);
+    border-radius:50%;
+    position:absolute;
+    top:-10px; bottom:0; left:-12px;right:0;
+    overflow:hidden;
+    animation-name: s_cir ;
+    animation-duration: 4s ;
+     animation-iteration-count: infinite ; 
+  }
+
+  @keyframes s_cir{
+    0%   {left:-12px; top:-10px;} 
+      25%  { left: 488px; top: -10px;}
+      50%  { left:490px; top:490px;}  
+      75% { left:-10px; top:480px;}   
+    /*100%{background-color:green; left:0px; bottom:200px;} */
+     /* {background-color:rgb(37, 34, 34); left:0px; top:0px;} */ 
+  }
+  @keyframes sq_cir{
+    0%   {border-top: 2px solid red;} 
+     25%  {border-right: 2px solid rgb(23, 53, 134);} 
+    50%  {border-bottom: 2px solid yellow;}  
+    75% {border-left: 2px solid rgb(14, 49, 5);}    
+
+  }
+
+  .tooltip{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  .tooltip .tool_text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0px;
+    position: absolute;
+    z-index: 1;
+  }
+
+
+  .tooltip:hover .tool_text{
+    visibility: visible;
+  }

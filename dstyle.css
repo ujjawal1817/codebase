@@ -1,0 +1,32 @@
+.cl1{
+    background-color:red;
+}
+.cl2{
+    background-color: yellow;
+}
+.cl3{
+    background-color: blue;
+}
+
+.cl1 .cl2 .cl3{
+    background-color: aqua;
+}
+
+.cl1 .cl2{
+    background-color: black;
+}
+
+.cl2 .cl3{
+    background-color: orange;
+}
+.cl1 .cl3{
+    background-color: brown;
+}
+.test{
+    display: flex;
+    font-size: 30px;
+    text-align: justify;
+    
+    
+}
+
