@@ -8,6 +8,10 @@
   height: 705px;
   position: relative;
 }
+
+body{
+  /* overflow: hidden; */
+}
 header {
   background-color: rgba(21, 101, 216, 1);
   width: 100%;
@@ -101,6 +105,7 @@ ul {
   margin-left: 90px;
 }
 .table-index {
+  position: absolute;
   border: 2px solid black;
   border-style: none;
   width: 944px;
@@ -109,11 +114,14 @@ ul {
   margin: 0 auto;
   box-shadow: 0px 28px 32px rgba(0, 0, 0, 0.06);
   background-color: rgba(255, 255, 255, 1);
-  z-index: -1;
+  top: 75%;
+  left: 16%;
 }
+  
+
 table {
   width: 100%;
-  margin-top: 4%;
+  margin-top: 2%
 }
 tr td {
   font-size: 16px;
@@ -126,7 +134,7 @@ tr td {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding: 10px 18px;
+  padding: 0px 18px;
   color: rgba(90, 113, 132, 1);
 }
 .table-img{
@@ -158,7 +166,7 @@ tr td {
   padding: 16px;
 }
 .sec-3 {
-  margin-top: 25%;
+  margin-top: 30%;
   margin-left: 4%;
 }
 .heading-2 {
@@ -331,11 +339,11 @@ tr td {
 
 .img-2 {
   top: 31%;
-  right: 12%;
+  right: 15%;
 }
 .img-3 {
   top: 52%;
-  right: 40%;
+  right: 37%;
 }
 .img-4 {
   top: 67%;

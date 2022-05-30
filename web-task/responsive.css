@@ -1,26 +1,710 @@
 /* for mobile */
-@media only screen and (min-width: 310px) and (max-width: 767px) {
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .section1 {
+    background-color: rgba(21, 101, 216, 1);
+    height: 433px;
+  }
+  .nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .u-list {
+    margin-left: 11%;
+  }
+  .nav-bar {
+    flex-direction: column;
+    margin-right: 35px;
+  }
+  .logo-img {
+    margin-top: 14px;
+  }
+  .list-one {
+    padding: 6px 20px;
+    margin: 0 auto;
+  }
+  .sign-up {
+    width: 90px;
+    height: 24px;
+    font-weight: 500;
+  }
+  .dot-img {
+    width: 340px;
+    height: 179px;
+  }
+  .crypto {
+    margin-top: 2rem;
+    line-height: 17px;
+  }
+  .heading-one {
+    font-size: 14px;
+    color: white;
+    font-family: HKGrotesk;
+    margin-top: 17px;
+  }
+  .para-one {
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .p-holder {
+    width: 175px;
+    height: 27px;
+    border-radius: 8px;
+    border-style: hidden;
+    padding: 15px;
+    font-size: 10px;
+  }
+  .btn-started {
+    position: absolute;
+    width: 70px;
+    height: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 11px;
+    margin-top: -26px;
+    left: 28%;
+  }
+  .table-index {
+    display: none;
+  }
+  .sec-3 {
+    margin-top: 9%;
+  }
+  .card {
+    display: inline-block;
+    width: auto;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 12px;
+  }
+  .p-two {
+    width: 295px;
+  }
+  .heading-2 {
+    font-family: HK Grotesk;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-top: 25px;
+  }
+  .para-2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+  .heading-3 {
+    font-size: 16px;
+  }
+  .crypto-card {
+    width: 202px;
+    height: 96px;
+  }
+  .main-card-cryptocurrency {
+    display: flex;
+    width: 192px;
+    height: 38px;
+  }
+  .rate-num {
+    margin: 16px 25px;
+  }
+  .rate {
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .card-text {
+    padding: -1px 0px;
+    font-family: HK Grotesk;
+    color: #183b56;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .card-icon {
+    width: 36%;
+  }
+  .fa-arrow {
+    margin-left: 10px;
+  }
+  .res-container {
+    text-align: center;
+  }
+  .blue-banner {
+    height: 175px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner-text {
+    font-size: 25px;
+  }
+  .banner-para {
+    font-size: 16px;
+  }
+  .portfolio {
+    display: block;
+    margin-left: 32px;
+  }
+  .heading-4 {
+    font-size: 18px;
+    width: 70%;
+    margin-left: 35px;
+  }
+  .para-4 {
+    font-size: 12px;
+    width: 95%;
+    line-height: 20px;
+  }
+  .map-main {
+    display: none;
+  }
+  .manage-1 {
+    font-family: HK Grotesk;
+    margin-top: 15px;
+    color: rgba(24, 59, 86, 1);
+    font-size: 16px;
+  }
+  .para-mng {
+    width: 80%;
+    padding: 2px 1px;
+    font-size: 12px;
+  }
+  .member {
+    font-family: HK Grotesk;
+    font-size: 15px;
+  }
+  .arrow {
+    padding: 2px;
+  }
+  .callout {
+    width: 140px;
+    height: 110px;
+  }
+  .callout p {
+    padding: 8px;
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .callout-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .call-para {
+    font-size: 14px;
+  }
+  .call-para-2 {
+    font-size: 12px;
+  }
+  .callout-img-2 {
+    margin-left: 45px;
+    padding: 0px 2px;
+  }
+  .callout::after {
+    position: absolute;
+    content: "";
+    border-right: 42px solid transparent;
+    border-top: 26px solid #ffffff;
+    top: 101px;
+    right: 99px;
+    transform: rotate(6deg);
+}
+.heading-5 {
+  margin: 0px;
+  font-family: HK Grotesk;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+.main-portfolio {
+  height: 409px;
+}
+.para-5 {
+  font-size: 12px;
+}
+.res-footer-img{
+  width: 100%;
+  height: 100%;
+}
+.footer-img{
+  width: 400px;
+    height: 209px;
+}
+.footer-btn {
+  position: absolute;
+  top: 27%;
+  left: 30%;
+}
+.btn-ftr {
+  width: 135px;
+  height: 30px;
+  border-radius: 8px;
+  font-size: 12px;
+}
 }
 
-/* for ipad */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-}
-
-/* for ipad pro */
-@media only screen and (min-width: 1100px) and (max-width: 1250px) {
+@media only screen and (min-width: 768px) and (max-width: 1099px) {
+  .container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .res-img {
+    width: 100%;
+    height: 100%;
+  }
+  .map-img {
+    width: 564px;
+    height: 647px;
+  }
+  .dot-img {
+    width: 100%;
+    height: 100%;
+  }
+  .bg-img {
+    width: 720px;
+    height: 647px;
+  }
   .bg-img {
     position: absolute;
     top: 15%;
-    left: -2%;
+    left: 5%;
     opacity: 0.1;
+  }
+  .table-index {
+    left: 9%;
+  }
+  .res-container {
+    text-align: center;
+  }
+
+  .img-2 {
+    left: 96%;
+  }
+  .img-3 {
+    top: 51%;
+    right: 30%;
+  }
+  .img-4 {
+    top: 64%;
+    right: 0%;
+  }
+  .img-5 {
+    bottom: 9%;
+  }
+
+  .sec-3 {
+    margin-top: 35%;
+  }
+  .portfolio-two {
+    justify-content: space-around;
+  }
+  .callout {
+    width: 40vw;
+    height: 32vh;
+  }
+  .callout p {
+    padding: 25px 34px;
+    font-size: 1.5vw;
+    line-height: 40px;
+  }
+  .callout::after {
+    right: 87%;
+    top: 22vw;
+  }
+  .callout-img-2 {
+    margin-right: 16%;
+  }
+  .callout-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .call-para {
+    font-family: HK Grotesk;
+    font-size: 2.5vw;
+    font-weight: 600;
+    padding: 2px 20px;
+  }
+  .call-para-2 {
+    font-size: 1.5vw;
+  }
+  /* .nav-main{
+    flex-direction: column;
+  } */
+  .u-list {
+    margin-left: 9%;
+  }
+  .footer-img {
+    width: 80vw;
+    height: 30vh;
+  }
+  .res-footer-img {
+    width: 100%;
+    height: 100%;
+  }
+  .nav-main {
+    flex-direction: column;
+  }
+  .list-one {
+    padding: 4px 11px;
+  }
+  .logo-img {
+    margin-top: 9px;
+  }
+  .heading-one {
+    font-size: 3vw;
+    color: white;
+    font-family: HKGrotesk;
+  }
+  .para-one {
+    font-size: 1.5vw;
+  }
+  .p-holder {
+    width: 25vw;
+    height: 5vh;
+    font-size: 1.5vw;
+  }
+
+  .btn-started {
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    font-size: 1vw;
+    left: 41%;
+    margin-top: -28px;
+  }
+  .table-index {
+    position: absolute;
+    border: 2px solid black;
+    border-style: none;
+    width: 86vw;
+    height: 77vh;
+    border-radius: 12px;
+    margin: 0 auto;
+    box-shadow: 0px 28px 32px rgb(0 0 0 / 6%);
+    background-color: rgba(255, 255, 255, 1);
+    top: 58%;
+    left: 16%;
+    left: 8%;
+  }
+  .table-list-1 {
+    font-size: 11px;
+  }
+  tr td {
+    font-size: 11px;
+  }
+  .table-btn {
+    height: 5vh;
+    width: 6vw;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    align-items: center;
+  }
+  .line-map {
+    position: absolute;
+    top: 26%;
+  }
+  .sec-3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 62px;
+    text-align: center;
+    margin-top: 22%;
+  }
+  .heading-2 {
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .para-2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .p-two {
+    width: 190px;
+  }
+  .heading-3 {
+    font-size: 3vw;
+  }
+  .main-card-cryptocurrency {
+    width: 28vw;
+  }
+  .rate {
+    font-size: 2vw;
+  }
+  .crypto-card {
+    width: 29vw;
+    height: 23vh;
+  }
+  .card-text {
+    padding: 0px 4px;
+  }
+  .banner-text {
+    font-size: 3vw;
+  }
+  .banner-para {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2vw;
+    color: rgba(255, 255, 255, 1);
+  }
+  .blue-banner {
+    height: 16vh;
+    justify-content: space-around;
+  }
+  .heading-4 {
+    font-family: HK Grotesk;
+    font-size: 2.5vw;
+    width: 100%;
+    color: rgba(24, 59, 86, 1);
+  }
+  .para-4 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.5vw;
+    width: 100%;
+    color: rgba(90, 113, 132, 1);
+    line-height: 2vw;
+    margin-top: 17px;
+  }
+  .portfolio {
+    margin-top: 6%;
+    margin-left: 0px;
+    text-align: center;
+    display: block;
+  }
+  .map-main {
+    display: none;
+  }
+
+  .main {
+    margin-bottom: 2vw;
+    margin-left: 21vw;
+  }
+
+  .manage-1 {
+    font-family: HK Grotesk;
+    margin-top: 2vw;
+    color: rgba(24, 59, 86, 1);
+    font-size: 1.5vw;
+  }
+  .main-portfolio {
+    height: 70vh;
+  }
+  .portfoloio-one {
+    display: flex;
+    justify-content: space-evenly;
+    padding: auto 3px;
+    padding: 31px 2px;
+  }
+  .member {
+    font-family: HK Grotesk;
+    font-size: 3vw;
+    font-weight: normal;
+    color: rgba(24, 59, 86, 1);
+    margin-right: 34%;
+  }
+  .arrow {
+    color: rgba(24, 59, 86, 1);
+    padding: 4px;
+  }
+  .heading-5 {
+    margin: 0px;
+    font-size: 2.5vw;
+  }
+  .para-5 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.5vw;
+  }
+  .btn-ftr {
+    width: 23vw;
+    height: 6vh;
+    border-radius: 8px;
+    border-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.5vw;
+  }
+  .footer-btn {
+    top: 50%;
+    left: 36%;
+  }
+  .main-footer {
+    padding: 0px;
+  }
+  .footer-1 {
+    position: relative;
+    height: 30vh;
+  }
+  .footer-para {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.5vw;
+    line-height: 17px;
+    color: rgba(90, 113, 132, 1);
+    width: 170px;
+  }
+  .s_media {
+    padding: 8px 0px;
+    width: 30px;
+    height: 74px;
+  }
+  .res-footer-heading {
+    font-size: 2vw;
+  }
+  .res-footer-para {
+    font-size: 1.5vw;
+  }
+  .footer-heart {
+    width: 4vw;
+    height: 3vh;
+  }
+  .para-l-footer {
+    margin-top: 2px;
+    font-size: 1.5vw;
+  }
+  .c_footer {
+    line-height: 28px;
+  }
+}
+@media only screen and (min-width: 782px) and (max-width: 1099px) {
+  .callout::after {
+    right: 87%;
+    top: 94%;
+  }
+  .call-para {
+    font-family: HK Grotesk;
+    font-size: 1.9vw;
+    font-weight: 600;
+    padding: 0px 18px;
+  }
+  .callout-img-2 {
+    margin-right: 18%;
+  }
+  .crypto-card {
+    width: 31vw;
+    height: 23vh;
+  }
+}
+@media only screen and (min-width: 819px) and (max-width: 1099px) {
+  .btn-started {
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    font-size: 1vw;
+    left: 43%;
+    margin-top: -28px;
+  }
+  .p-holder {
+    width: 273px;
+    height: 34px;
+    font-size: 1.5vw;
   }
 }
 
-@media only screen and (min-width: 1251px) and (max-width: 1400px) {
-  
-.section1{
-    width: 100vw;
+@media only screen and (min-width: 1100px) and (max-width: 1199px) {
+  .res-img {
+    width: 100%;
+    height: 100%;
+  }
+  .map-img {
+    width: 586px;
+    height: 647px;
+  }
+  .dot-img {
+    width: 100%;
+    height: 100%;
+  }
+  .bg-img {
+    width: 1000px;
+    height: 647px;
+  }
+  .bg-img {
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    opacity: 0.1;
+  }
+  .table-index {
+    left: 9%;
+  }
+  .res-container {
+    text-align: center;
+  }
+
+  .img-2 {
+    left: 96%;
+  }
+  .img-3 {
+    top: 51%;
+    right: 30%;
+  }
+  .img-4 {
+    top: 64%;
+    right: 0%;
+  }
+  .img-5 {
+    bottom: 9%;
+  }
+  .footer-btn {
+    top: 70%;
+  }
+  .sec-3 {
+    margin-top: 35%;
+    text-align: center;
+  }
 }
+@media only screen and (min-width: 1251px) and (max-width: 1300px) {
+  .res-img {
+    width: 100%;
+    height: 100%;
+  }
+  .map-img {
+    width: 612px;
+    height: 647px;
+  }
+  .dot-img {
+    width: 100%;
+    height: 100%;
+  }
+  .bg-img {
+    width: 1120px;
+    height: 647px;
+  }
+  .img-3 {
+    top: 52%;
+    right: 37%;
+  }
+  .img-2 {
+    top: 31%;
+    right: 14%;
+  }
+  .img-4 {
+    top: 67%;
+    right: 19%;
+  }
+  .footer-btn {
+    top: 54%;
+    left: 37%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
   .res-container {
     text-align: center;
   }
@@ -29,28 +713,47 @@
   }
   .img-3 {
     top: 52%;
-    right: 37%;
+    right: 34%;
   }
   .img-2 {
     top: 31%;
-    right: 6%;
+    right: 2%;
   }
   .img-4 {
-    top: 66%;
-    right: 11%;
+    top: 65%;
+    right: 8%;
   }
   .img-5 {
-    bottom: 7%;
+    bottom: 9%;
     left: 20%;
   }
   .footer-btn {
-    top: 64%;
+    top: 65%;
     left: 37%;
   }
   .bg-img {
     position: absolute;
     top: 15%;
-    left: 2%;
+    left: 6%;
     opacity: 0.1;
+  }
+  .res-img {
+    width: 100%;
+    height: 100%;
+  }
+  .map-img {
+    width: 612px;
+    height: 647px;
+  }
+  .dot-img {
+    width: 100%;
+    height: 100%;
+  }
+  .bg-img {
+    width: 1120px;
+    height: 647px;
+  }
+  .table-index {
+    left: 12%;
   }
 }
