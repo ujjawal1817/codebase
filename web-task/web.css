@@ -9,9 +9,6 @@
   position: relative;
 }
 
-body{
-  /* overflow: hidden; */
-}
 header {
   background-color: rgba(21, 101, 216, 1);
   width: 100%;
@@ -51,6 +48,14 @@ ul {
   background-color: rgba(21, 101, 216, 1);
   color: white;
   font-weight: 700;
+}
+.sign-up:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.list-one:hover{
+  font-size: 20px;
+  cursor: pointer;
 }
 .bg-img {
   position: absolute;
@@ -103,6 +108,10 @@ ul {
   color: white;
   margin-top: -52px;
   margin-left: 90px;
+}
+.btn-started:hover{
+  background-color: rgba(54, 179, 126, 0.5);
+  cursor: pointer;
 }
 .table-index {
   position: absolute;
@@ -219,6 +228,9 @@ tr td {
   display: inline-block;
   margin: 14px;
 }
+.crypto-card:hover{
+  transform: scale(1.2,1.2);
+}
 .card-icon{
   display: flex;
 }
@@ -333,25 +345,25 @@ tr td {
   position: absolute;
 }
 .img-1 {
-  top: 20%;
-  left: 20%;
+  top: 20% !important; 
+  left: 20% !important;
 }
 
 .img-2 {
-  top: 31%;
-  right: 11%;
+  top: 31% !important;
+  right: 11% !important;
 }
 .img-3 {
-  top: 52%;
-  right: 40%;
+  top: 52% !important;
+  right: 40% !important;
 }
 .img-4 {
-  top: 67%;
-  right: 17%;
+  top: 67% !important;
+  right: 17% !important;
 }
 .img-5 {
-  bottom: 4%;
-  left: 20%;
+  bottom: 4% !important;
+  left: 20% !important;
 }
 .main-portfolio {
   height: 556px;
@@ -373,6 +385,9 @@ tr td {
   color: rgba(24, 59, 86, 1);
   padding: 23px;
 }
+.arrow:hover{
+  opacity: 0.5;
+}
 .portfolio-two {
   display: flex;
   justify-content: space-evenly;
@@ -385,6 +400,9 @@ tr td {
   background-color: #ffffff;
   border-style: none;
   position: relative;
+}
+.callout:hover{
+  transform: scale(1.2,1.2);
 }
 .callout-icon{
   width:56px; 
@@ -461,7 +479,7 @@ tr td {
 }
 .footer-btn {
   position: absolute;
-  top: 45%;
+  top: 54%;
   left: 37%;
 }
 .btn-ftr {
@@ -475,6 +493,10 @@ tr td {
   font-weight: 500;
   color: #ffff;
   background-color: rgba(21, 101, 216, 1);
+}
+.btn-ftr:hover{
+  cursor: pointer;
+  background-color: rgba(21, 101, 216, 0.6);
 }
 
 .footer-para {

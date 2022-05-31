@@ -39,7 +39,7 @@
     width: 90vw;
     height: 60vh;
   }
-  .dot-img{
+  .dot-img {
     width: 100%;
     height: 100%;
   }
@@ -86,8 +86,8 @@
     display: flex;
     margin-bottom: 13%;
     justify-content: center;
-    margin-left: 72px;
-}
+    margin-left: 35px;
+  }
   .card {
     display: inline-block;
     width: auto;
@@ -123,7 +123,11 @@
   .main-card-cryptocurrency {
     display: flex;
     width: 22vw;
-    height: 7vh
+    height: 7vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 13px auto;
+    background-color: white;
   }
   .rate-num {
     margin: 16px 25px;
@@ -146,8 +150,10 @@
   .fa-arrow {
     margin-left: 10px;
   }
-  .arrow-res{
+  .arrow-res {
     width: 5vw;
+    transform: rotate(90deg);
+    margin-left: 25px;
   }
   .res-container {
     text-align: center;
@@ -166,11 +172,11 @@
   .portfoloio-one {
     display: flex;
     justify-content: space-evenly;
-    padding: 40px 3px;
-}
+    padding: 25px 3px;
+  }
   .portfolio {
     display: block;
-    margin-left: 32px;
+    margin-left: 3px;
   }
   .heading-4 {
     font-size: 18px;
@@ -206,7 +212,7 @@
   }
   .callout {
     width: 40vw;
-    height: 27vh
+    height: 27vh;
   }
   .callout p {
     padding: 23px;
@@ -230,7 +236,7 @@
     display: flex;
     margin-left: 7%;
     margin-top: 18px;
-}
+  }
   .callout-img-2 {
     margin-left: 43px;
     padding: 0px 2px;
@@ -248,7 +254,7 @@
   .heading-5 {
     margin: 0px;
     font-family: HK Grotesk;
-    font-size: 12px;
+    font-size: 3vw;
     text-align: center;
     margin-top: 10px;
   }
@@ -256,7 +262,7 @@
     height: 330px;
   }
   .para-5 {
-    font-size: 12px;
+    font-size: 2vw;
   }
   .res-footer-img {
     width: 100%;
@@ -274,13 +280,13 @@
   .footer-btn {
     position: absolute;
     top: 59%;
-    left: 43%
+    left: 35%;
   }
   .btn-ftr {
-    width: 101px;
-    height: 26px;
+    width: 20vw;
+    height: 5vh;
     border-radius: 8px;
-    font-size: 9px;
+    font-size: 8px;
   }
   .main-footer {
     padding: 0;
@@ -299,29 +305,28 @@
     color: rgba(90, 113, 132, 1);
     width: auto;
   }
-  .s_media{
+  .s_media {
     width: 14px;
     height: 40px;
-}
-.res-footer-heading{
-  font-size: 2vw;
-}
-  .res-footer-para{
+  }
+  .res-footer-heading {
+    font-size: 2vw;
+  }
+  .res-footer-para {
     font-size: 1.5vw;
   }
-  .c_footer{
+  .c_footer {
     line-height: 20px;
     margin-top: 15px;
   }
   .footer-heart {
     width: 20px;
     height: 56px;
-}
-.para-l-footer {
-  margin-top: auto;
-  font-size: 2vw;
-}
-  
+  }
+  .para-l-footer {
+    margin-top: auto;
+    font-size: 2vw;
+  }
 }
 @media only screen and (min-width: 375px) and (max-width: 725px) {
   .btn-started {
@@ -330,12 +335,12 @@
     height: 4vh;
     left: 39%;
     top: 94.5%;
-}
-.sec-3 {
-  margin-left: 1%;
-  display: inline-block;
-  text-align: center;
-}
+  }
+  .sec-3 {
+    margin-left: 1%;
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1099px) {
@@ -671,6 +676,7 @@
     line-height: 28px;
   }
 }
+
 @media only screen and (min-width: 782px) and (max-width: 1099px) {
   .callout::after {
     right: 87%;
@@ -696,7 +702,7 @@
     width: 101px;
     height: 22px;
     font-size: 1vw;
-    left: 43%;
+    left: 42%;
     margin-top: -28px;
   }
   .p-holder {
@@ -704,6 +710,35 @@
     height: 34px;
     font-size: 1.5vw;
   }
+  .crypto-card {
+    width: 35vw;
+    height: 23vh;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 882px) {
+  .btn-started {
+    position: absolute;
+    width: 7vw;
+    height: 4vh;
+    font-size: 1vw;
+    left: 47%;
+    margin-top: -29px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 818px) {
+  .p-holder {
+    width: 34vw;
+    height: 5vh;
+    font-size: 1.5vw;
+}
+.btn-started {
+  position: absolute;
+  width: 11vw;
+  height: 4vh;
+  font-size: 1vw;
+  left: 42%;
+  margin-top: -27px;
+}
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1199px) {
@@ -792,7 +827,7 @@
     left: 37%;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
   .res-container {
     text-align: center;
   }
